@@ -8,12 +8,15 @@ public class DemandaP {
 		//Nome
 		System.out.println("Cadastre um nome :");
 		String name = sc.nextLine();
+	    
 		//Gerando um CPF
 		int cpf = sorteio.nextInt(1000000000); //os 9 números do cpf
-        int dd = sorteio.nextInt(100);
+                int dd = sorteio.nextInt(100);
+	    
 		//UF
-		System.out.println("Informe sua UF :");
+		System.out.println("Informe seu UF :");
 		String uf = sc.nextLine();
+	    
 		//telefone
 		int cell = 11 + sorteio.nextInt(89);
 		int pref = 90000 + sorteio.nextInt(10000);
